@@ -1,0 +1,41 @@
+uuid: 45f21da1-387d-4100-b04d-6a391b8c237d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.homepage_slider
+    - field.field.block_content.homepage_slider.field_image
+    - field.field.block_content.homepage_slider.field_link
+  module:
+    - image
+    - link
+id: block_content.homepage_slider.default
+targetEntityType: block_content
+bundle: homepage_slider
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

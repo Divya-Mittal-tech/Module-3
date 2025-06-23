@@ -1,0 +1,8 @@
+uuid: 2331da3c-dca2-49f8-938b-f4d46bcb6dc6
+langcode: en
+status: true
+dependencies: {  }
+id: footer_top
+label: 'Footer Top'
+revision: false
+description: null

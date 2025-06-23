@@ -1,0 +1,30 @@
+uuid: 40cfc0cb-f9bf-4afe-8783-94fd53812163
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_top
+    - field.field.block_content.footer_top.field_contact_no
+    - field.field.block_content.footer_top.field_email
+id: block_content.footer_top.default
+targetEntityType: block_content
+bundle: footer_top
+mode: default
+content:
+  field_contact_no:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

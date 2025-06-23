@@ -1,0 +1,38 @@
+uuid: a30f946a-3bf7-40bf-a762-4270604e7840
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_top
+    - field.field.block_content.footer_top.field_contact_no
+    - field.field.block_content.footer_top.field_email
+id: block_content.footer_top.default
+targetEntityType: block_content
+bundle: footer_top
+mode: default
+content:
+  field_contact_no:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 27
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

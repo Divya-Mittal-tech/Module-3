@@ -1,0 +1,10 @@
+uuid: bc582608-b6c1-488f-b6ed-d2e28f56eeaf
+langcode: en
+status: true
+dependencies: {  }
+id: our_partners
+label: 'Our Partners'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

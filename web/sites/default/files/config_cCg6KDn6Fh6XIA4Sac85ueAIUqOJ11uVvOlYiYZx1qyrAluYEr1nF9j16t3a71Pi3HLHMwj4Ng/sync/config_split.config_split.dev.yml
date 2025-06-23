@@ -1,0 +1,17 @@
+uuid: fda39f3d-d25c-43e8-bba2-d4b1a7a7bbba
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: config/splits/dev
+module:
+  webform_ui: 0
+theme: {  }
+complete_list: {  }
+partial_list: {  }
