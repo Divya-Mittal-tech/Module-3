@@ -1,0 +1,30 @@
+uuid: fe3a5815-206e-4702-bb86-f96aec0a2eff
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:homepage_slider:01b0a67f-2968-4384-b45c-e8b2afaf5fb0'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_homepageslider
+theme: olivero
+region: content_above
+weight: -8
+provider: null
+plugin: 'block_content:01b0a67f-2968-4384-b45c-e8b2afaf5fb0'
+settings:
+  id: 'block_content:01b0a67f-2968-4384-b45c-e8b2afaf5fb0'
+  label: 'Homepage Slider'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

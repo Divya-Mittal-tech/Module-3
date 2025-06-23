@@ -1,0 +1,15 @@
+uuid: 888a259a-c59b-4af9-bdc9-f0cdbf8323f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: search_block
+name: 'Search Block'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: words
+  phrase: bigram

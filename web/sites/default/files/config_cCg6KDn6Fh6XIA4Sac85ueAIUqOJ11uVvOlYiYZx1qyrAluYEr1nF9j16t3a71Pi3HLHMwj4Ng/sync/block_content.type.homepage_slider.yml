@@ -1,0 +1,8 @@
+uuid: 3cb06cc4-2abb-4341-8a16-8e2c5e2a5c5f
+langcode: en
+status: true
+dependencies: {  }
+id: homepage_slider
+label: 'Homepage Slider'
+revision: false
+description: null

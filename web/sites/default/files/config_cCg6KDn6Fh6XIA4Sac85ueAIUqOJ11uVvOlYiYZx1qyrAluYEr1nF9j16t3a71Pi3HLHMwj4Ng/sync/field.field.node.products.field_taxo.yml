@@ -1,0 +1,29 @@
+uuid: 02b5cdd2-6833-455c-93e8-fa97441fd4ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxo
+    - node.type.products
+    - taxonomy.vocabulary.feature
+id: node.products.field_taxo
+field_name: field_taxo
+entity_type: node
+bundle: products
+label: Features
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      feature: feature
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

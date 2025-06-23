@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: fc64eea6-908b-46a8-827f-9951d352fb0a
+name: Mod-3-Test
+mail: admin@example.com
+slogan: ''
+page:
+  403: /node/2
+  404: /node/1
+  front: /node/14
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

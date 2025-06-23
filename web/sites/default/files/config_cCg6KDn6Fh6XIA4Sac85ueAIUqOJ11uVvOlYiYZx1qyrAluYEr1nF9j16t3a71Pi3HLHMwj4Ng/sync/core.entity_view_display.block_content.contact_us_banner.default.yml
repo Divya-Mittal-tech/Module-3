@@ -1,0 +1,26 @@
+uuid: 4d999aa2-b2e6-47cc-b8c6-f3824c9fbed0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_us_banner
+    - field.field.block_content.contact_us_banner.field_contact_us
+  module:
+    - image
+id: block_content.contact_us_banner.default
+targetEntityType: block_content
+bundle: contact_us_banner
+mode: default
+content:
+  field_contact_us:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: fb3e1926-80cc-4905-a1aa-9450c58dc8ae
+langcode: en
+status: true
+dependencies: {  }
+name: smallest
+label: Smallest
+effects:
+  36621497-5a8a-4af0-8591-8997aa7d24b2:
+    uuid: 36621497-5a8a-4af0-8591-8997aa7d24b2
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50
+  5b686f17-9f06-4ec4-8f8e-067c1d07b223:
+    uuid: 5b686f17-9f06-4ec4-8f8e-067c1d07b223
+    id: image_scale
+    weight: 2
+    data:
+      width: 50
+      height: 50
+      upscale: false

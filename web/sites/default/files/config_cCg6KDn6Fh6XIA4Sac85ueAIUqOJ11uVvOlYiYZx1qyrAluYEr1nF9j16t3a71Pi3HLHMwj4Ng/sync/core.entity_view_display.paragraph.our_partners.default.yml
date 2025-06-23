@@ -1,0 +1,43 @@
+uuid: 4ad9dcd8-8b2b-492a-b66f-814a90b87310
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_partners.field_brand_logo
+    - field.field.paragraph.our_partners.field_partner_name
+    - paragraphs.paragraphs_type.our_partners
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.our_partners.default
+targetEntityType: paragraph
+bundle: our_partners
+mode: default
+content:
+  field_brand_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_partner_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  layout_builder__layout: true
+  search_api_excerpt: true
